@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59651" started-at="2020-01-08T13:19:45 IST" finished-at="2020-01-08T13:20:45 IST">
+    <groups>
+    </groups>
+    <test name="Validating Title in the Page" duration-ms="12834" started-at="2020-01-08T13:19:45 IST" finished-at="2020-01-08T13:19:58 IST">
+      <class name="Academy.E2EFramework.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EFramework.validateTitle@43c1b556]" name="initialize" is-config="true" duration-ms="11627" started-at="2020-01-08T13:19:45 IST" finished-at="2020-01-08T13:19:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.E2EFramework.validateTitle@43c1b556]" name="validateAppTitle" duration-ms="272" started-at="2020-01-08T13:19:57 IST" finished-at="2020-01-08T13:19:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EFramework.validateTitle@43c1b556]" name="tearDown" is-config="true" duration-ms="869" started-at="2020-01-08T13:19:57 IST" finished-at="2020-01-08T13:19:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EFramework.validateTitle -->
+    </test> <!-- Validating Title in the Page -->
+    <test name="Validating Navigation Bar" duration-ms="10579" started-at="2020-01-08T13:19:58 IST" finished-at="2020-01-08T13:20:09 IST">
+      <class name="Academy.E2EFramework.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EFramework.validateNavigationBar@192c3f1e]" name="initialize" is-config="true" duration-ms="9554" started-at="2020-01-08T13:19:58 IST" finished-at="2020-01-08T13:20:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.E2EFramework.validateNavigationBar@192c3f1e]" name="validateAppNavBar" duration-ms="197" started-at="2020-01-08T13:20:08 IST" finished-at="2020-01-08T13:20:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EFramework.validateNavigationBar@192c3f1e]" name="tearDown" is-config="true" duration-ms="824" started-at="2020-01-08T13:20:08 IST" finished-at="2020-01-08T13:20:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EFramework.validateNavigationBar -->
+    </test> <!-- Validating Navigation Bar -->
+    <test name="Validating User Login" duration-ms="36107" started-at="2020-01-08T13:20:09 IST" finished-at="2020-01-08T13:20:45 IST">
+      <class name="Academy.E2EFramework.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EFramework.HomePage@687e99d8]" name="initialize" is-config="true" duration-ms="2538" started-at="2020-01-08T13:20:09 IST" finished-at="2020-01-08T13:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EFramework.HomePage@687e99d8]" name="basePageNavigation" duration-ms="21524" started-at="2020-01-08T13:20:11 IST" data-provider="getData" finished-at="2020-01-08T13:20:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Resrticted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EFramework.HomePage@687e99d8]" name="basePageNavigation" duration-ms="11228" started-at="2020-01-08T13:20:33 IST" data-provider="getData" finished-at="2020-01-08T13:20:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Resrticted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EFramework.HomePage@687e99d8]" name="tearDown" is-config="true" duration-ms="808" started-at="2020-01-08T13:20:44 IST" finished-at="2020-01-08T13:20:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EFramework.HomePage -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
