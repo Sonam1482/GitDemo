@@ -40,6 +40,8 @@ public class HomePage extends Base {
 		lp.getEmail().sendKeys(UserName);
 		lp.getPassword().sendKeys(Password);
 		System.out.println(Text);
+		System.out.println("sonam");
+		System.out.println("sonam123");
 		log.info(Text);
 		lp.getLogin().click();
 	}
